@@ -26,10 +26,10 @@ body {
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1.125rem;
-	color: var(--clr-dark);
+	color: var(--clr-nav-font);
 	line-height: 1.4937rem;
 	font-weight: var(--fw-extra-bold);
-    background-image: url(/assets/flowers-7308250_1920\ 1.png);
+	background-image: url(/assets/flowers-7308250_1920\ 1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -93,33 +93,27 @@ nav {
 	width: 100vw;
 	min-height: 100vh;
 	padding: 3em 1em;
-    
 }
 
 .main--background {
-	
-    
 }
 
 .main__container {
 	width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: var(--clr-light);
-    
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 .main__content {
-    width: 85%;
-    
+	width: 85%;
 }
 .main__title {
 	font-family: 'Inter', sans-serif;
 	font-size: var(--fw-extra-bold);
 	font-size: 3rem;
-    font-weight: var(--fw-extra-bold);
+	font-weight: var(--fw-extra-bold);
 	line-height: 3.0625rem;
 }
