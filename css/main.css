@@ -5,6 +5,7 @@
 *::before,
 *::after {
 	box-sizing: border-box;
+	outline: black;
 }
 
 :root {
@@ -16,14 +17,17 @@
 	--fw-normal: 400;
 	--fw-bold: 700;
 	--fw-extra-bold: 800;
+	--grid: 1fr;
 }
 
 body {
+	margin: 0;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1.125rem;
 	color: var(--clr-dark);
 	line-height: 1.4937rem;
 	font-weight: var(--fw-extra-bold);
+	background: var(--clr-light);
 }
 
 h1 {
@@ -32,9 +36,47 @@ h1 {
 }
 
 header {
+	width: 100%;
 	background-color: var(--clr-primary);
+	padding: 1em;
+	text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 }
 
 nav {
+	width: 100%;
 	background-color: var(--clr-primary);
+}
+
+.nav__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	font-weight: var(--fw-bold);
+	letter-spacing: 0.0625rem;
+}
+
+@media screen and (min-width: 1024px) {
+	.nav__list {
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
+
+.nav__link {
+	text-decoration: none;
+	color: inherit;
 }
