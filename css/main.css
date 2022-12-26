@@ -98,9 +98,15 @@ nav {
 	background-position: center;
 }
 
-.main-title {
+.main__container {
+	width: 100%;
+    
+}
+
+.main__title {
 	font-family: 'Inter', sans-serif;
-	line-height: 1;
 	font-size: var(--fw-extra-bold);
 	font-size: 3rem;
+    font-weight: var(--fw-extra-bold);
+	line-height: 3.0625rem;
 }
