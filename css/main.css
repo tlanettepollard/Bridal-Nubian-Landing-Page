@@ -1,1 +1,40 @@
+/* 
+ */
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-primary: #d1cea7;
+	--clr-dark: #81444c;
+	--clr-accent: #c7b97b;
+	--clr-light: #e1e5df;
+	--clr-nav-font: #251813;
+	--fw-normal: 400;
+	--fw-bold: 700;
+	--fw-extra-bold: 800;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.125rem;
+	color: var(--clr-dark);
+	line-height: 1.4937rem;
+	font-weight: var(--fw-extra-bold);
+}
+
+h1 {
+	font-family: 'Inter', sans-serif;
+	line-height: 3.0706rem;
+}
+
+header {
+	background-color: var(--clr-primary);
+}
+
+nav {
+	background-color: var(--clr-primary);
+}
