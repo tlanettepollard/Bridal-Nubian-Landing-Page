@@ -50,7 +50,7 @@ h4 {
   font-weight: 800;
   line-height: 3rem;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .heading-1 {
     font-size: 2.25rem;
   }
@@ -67,7 +67,7 @@ h4 {
   font-size: 1.5rem;
   line-height: 1.875rem;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .paragraph {
     font-size: 1.125rem;
   }
@@ -84,7 +84,7 @@ h4 {
 .hero__content {
   width: 100%;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content {
     width: 95%;
   }
@@ -106,9 +106,15 @@ h4 {
 .hero__content .hero__title {
   width: 19.4375rem;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content .hero__title {
     width: 95%;
+    margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .hero__content .hero__title {
+    margin-top: 6rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -126,7 +132,7 @@ h4 {
   background-color: #e1e5df;
   opacity: 0.75;
 }
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content .hero__intro {
     width: 95%;
   }

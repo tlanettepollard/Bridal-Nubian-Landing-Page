@@ -27,9 +27,15 @@
 
 		.hero__title {
 			width: 19.4375rem;
+            
 
             @include bp-sm-mobile {
                 width: 95%;
+                margin-top: 3rem;
+            }
+
+            @include bp-tablet {
+                margin-top: 6rem;
             }
 
             @include bp-tablet-up {
