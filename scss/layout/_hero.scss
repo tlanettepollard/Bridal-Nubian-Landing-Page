@@ -7,8 +7,11 @@
 	background-size: cover;
     
 	&__content {
-		width: 20rem;
+		width:100%; 
         
+        @include bp-sm-mobile {
+            width: 95%;
+        }
 
         @include bp-tablet-up {
             width: 26.25rem;
@@ -25,6 +28,10 @@
 		.hero__title {
 			width: 19.4375rem;
 
+            @include bp-sm-mobile {
+                width: 95%;
+            }
+
             @include bp-tablet-up {
                 width: 25rem;
             }
@@ -39,6 +46,9 @@
             background-color: $clr-lt-gray;
             opacity: .75;
 
+            @include bp-sm-mobile {
+                width: 95%;
+            }
             @include bp-tablet-up {
                 width: 25rem;
             }

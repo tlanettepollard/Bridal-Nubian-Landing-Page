@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px black;
+  outline: 1px solid black;
 }
 
 html {
@@ -50,6 +50,11 @@ h4 {
   font-weight: 800;
   line-height: 3rem;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .heading-1 {
+    font-size: 2.25rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   .heading-1 {
     font-size: 4rem;
@@ -62,6 +67,11 @@ h4 {
   font-size: 1.5rem;
   line-height: 1.875rem;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .paragraph {
+    font-size: 1.125rem;
+  }
+}
 
 .hero {
   width: 100vw;
@@ -72,7 +82,12 @@ h4 {
   background-size: cover;
 }
 .hero__content {
-  width: 20rem;
+  width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero__content {
+    width: 95%;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero__content {
@@ -91,6 +106,11 @@ h4 {
 .hero__content .hero__title {
   width: 19.4375rem;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero__content .hero__title {
+    width: 95%;
+  }
+}
 @media screen and (min-width: 768px) {
   .hero__content .hero__title {
     width: 25rem;
@@ -105,6 +125,11 @@ h4 {
   width: 19.4375rem;
   background-color: #e1e5df;
   opacity: 0.75;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero__content .hero__intro {
+    width: 95%;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero__content .hero__intro {
