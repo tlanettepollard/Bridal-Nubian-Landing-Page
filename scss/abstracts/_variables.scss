@@ -1,0 +1,38 @@
+// Variables
+$clr-primary: #d1cea7;
+$clr-dark: #81444c;
+$clr-accent: #c7b97b;
+$clr-lt-gray: #e1e5df;
+$clr-lt-burgundy: #b788a9;
+$clr-nav-font: #251813;
+
+//Typography
+$heading-font: 'Inter', monospace;
+$text-font: 'Work Sans', sans-serif;
+$fw-normal: 400;
+$fw-bold: 700;
+$fw-extra-bold: 800;
+
+// Theme
+$nav-background: $clr-primary;
+$heading-color: $clr-dark;
+$body-background-color: $clr-lt-gray;
+$body-font-color: $clr-dark;
+$button-background: $clr-accent;
+$nav-font: $clr-nav-font;
+$btn-link-color: $clr-dark;
+
+// Breakpoints
+
+$bp-mobile-start: 320px;
+$bp-mobile-end: 480px;
+$bp-tablet-start: 481px;
+$bp-tablet-end: 767px;
+$bp-sm-screen-start: 768px;
+$bp-sm-screen-end: 1023px;
+$bp-desktop-start: 1024px;
+$bp-desktop-end: 1200px;
+$bp-laptop-screen-start: 1201px;
+$bp-laptop-screen-end: 1440px;
+$bp-xl-desktop-start: 1440px;
+$bp-xl-desktop-end: 1920px;

@@ -1,0 +1,22 @@
+body {
+	font-family: $text-font;
+	font-weight: $fw-extra-bold;
+	font-size: 1.5rem;
+	line-height: 1.9919rem;
+	color: $body-font-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: $heading-color;
+	font-family: $heading-font;
+	font-weight: $fw-bold;
+}
+
+.heading-1 {
+	font-size: 4rem;
+	font-weight: $fw-extra-bold;
+	line-height: 4.2719rem;
+}
