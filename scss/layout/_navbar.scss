@@ -1,0 +1,10 @@
+nav {
+	.logo {
+		@include bp-xs-mobile {
+			width: 12.5rem;
+		}
+	}
+}
+.bg-light {
+	background-color: $nav-background !important;
+}

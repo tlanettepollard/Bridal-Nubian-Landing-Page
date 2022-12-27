@@ -1,0 +1,52 @@
+.hero {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('/assets/flowers-7308250_1920\ 1.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+	&__content {
+		width: 20rem;
+        
+
+        @include bp-tablet-up {
+            width: 26.25rem;
+             left: 3.1875rem;
+             top: 6.25rem;
+        }
+
+        @include bp-desktop-up {
+            width: 37.875rem;
+            left: 4.5rem;
+            top: 3.125rem;
+        }
+
+		.hero__title {
+			width: 19.4375rem;
+
+            @include bp-tablet-up {
+                width: 25rem;
+            }
+
+			@include bp-desktop-up {
+				width: 37.875rem;
+			}
+		}
+
+        .hero__intro {
+            width: 19.4375rem;
+            background-color: $clr-lt-gray;
+            opacity: .75;
+
+            @include bp-tablet-up {
+                width: 25rem;
+            }
+
+            @include bp-desktop-up {
+                width: 24.125rem;
+            }
+        }
+	}
+}
+ 

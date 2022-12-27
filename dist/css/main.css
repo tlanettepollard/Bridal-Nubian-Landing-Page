@@ -46,7 +46,83 @@ h4 {
 }
 
 .heading-1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
-  line-height: 4.2719rem;
+  line-height: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  .heading-1 {
+    font-size: 4rem;
+    line-height: 4.2719rem;
+  }
+}
+
+.paragraph {
+  color: #81444c;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/assets/flowers-7308250_1920 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero__content {
+  width: 20rem;
+}
+@media screen and (min-width: 768px) {
+  .hero__content {
+    width: 26.25rem;
+    left: 3.1875rem;
+    top: 6.25rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__content {
+    width: 37.875rem;
+    left: 4.5rem;
+    top: 3.125rem;
+  }
+}
+.hero__content .hero__title {
+  width: 19.4375rem;
+}
+@media screen and (min-width: 768px) {
+  .hero__content .hero__title {
+    width: 25rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__content .hero__title {
+    width: 37.875rem;
+  }
+}
+.hero__content .hero__intro {
+  width: 19.4375rem;
+  background-color: #e1e5df;
+  opacity: 0.75;
+}
+@media screen and (min-width: 768px) {
+  .hero__content .hero__intro {
+    width: 25rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__content .hero__intro {
+    width: 24.125rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  nav .logo {
+    width: 12.5rem;
+  }
+}
+
+.bg-light {
+  background-color: #d1cea7 !important;
 }/*# sourceMappingURL=main.css.map */
