@@ -45,18 +45,26 @@ nav {
 
 		.offcanvas-header {
 			.sidebar-logo {
-				width: 4.7188rem;
-				left: 35%;
+				width: 50%;
+				height: auto;
+				left: 25%;
 				top: 10%;
 			}
 		}
 
 		.offcanvas-body {
 			.navbar-nav {
-				width: 50%;
+				width: 80%;
 				height: 7.6875rem;
-				top: 12.5rem;
+				top: 14.0625rem;
 				left: 2rem;
+
+                @include bp-sm-mobile {
+                    top: 14.0625rem;
+                }
+                @include bp-tablet {
+                    top: 15.625rem;
+                }
 
 				@include bp-small-screen {
 					width: 43.0625rem;
@@ -102,6 +110,12 @@ nav {
 			}
 
 			.nav-item {
+                padding: 1.25rem 0rem;
+
+                @include bp-sm-mobile {
+                    padding: .3125rem 0rem;
+                }
+
 				@include bp-tablet-up {
 					font-size: 0.9375rem;
 				}
