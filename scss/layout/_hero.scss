@@ -8,27 +8,46 @@
 
 	&__content {
 		width: 100%;
+		top: 0;
+		left: 0;
 
 		@include bp-sm-mobile {
-			width: 95%;
+			width: 90%;
+			top: 2.5rem;
+			left: -0.625rem;
+		}
+
+		@include bp-tablet {
+			top: 0.625rem;
+			left: -5rem;
 		}
 
 		@include bp-tablet-up {
 			width: 26.25rem;
-			left: 3.1875rem;
-			top: 6.25rem;
+			left: 2.5rem;
+			top: 9.375rem;
 		}
 
 		@include bp-desktop-up {
 			width: 37.875rem;
-			left: 4.5rem;
-			top: 3.125rem;
+			left: 3.125rem;
+			top: 15.625rem;
+		}
+
+		@include bp-xl-up {
+			top: 12.5rem;
+		}
+
+		@include bp-xxl-up {
+			top: 10.9375rem;
+		}
+
+		@include bp-xxxl-up {
+			top: 14.0625rem;
 		}
 
 		.hero__title {
 			width: 19.4375rem;
-			//background-color: $clr-lt-gray;
-			opacity: 0.75;
 
 			@include bp-sm-mobile {
 				width: 95%;
@@ -50,11 +69,10 @@
 
 		.hero__intro {
 			width: 19.4375rem;
-			background-color: $clr-lt-gray;
-			opacity: 0.75;
 
 			@include bp-sm-mobile {
 				width: 95%;
+				padding-right: 3.125rem;
 			}
 			@include bp-tablet-up {
 				width: 25rem;

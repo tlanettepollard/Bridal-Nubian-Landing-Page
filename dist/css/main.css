@@ -74,6 +74,46 @@ h4 {
   }
 }
 
+.btn {
+  width: 13.375rem;
+  height: 3.5rem;
+  color: #81444c !important;
+}
+
+.btn-primary {
+  background-color: #c7b97b;
+  color: #81444c !important;
+  border: 2px solid #c7b97b !important;
+}
+.btn-primary:hover {
+  background-color: #81444c !important;
+  border: 2px solid #81444c !important;
+}
+.btn-primary:hover a:hover {
+  color: #d1cea7;
+  font-weight: 700;
+}
+.btn-primary a {
+  font-weight: 700;
+  margin: auto;
+  color: #81444c !important;
+}
+
+.button-container {
+  top: 21.25rem;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .button-container {
+    left: 0.625rem;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .button-container {
+    top: 31.25rem;
+    left: 5.9375rem;
+  }
+}
+
 footer {
   width: 100%;
   height: 10vh;
@@ -90,29 +130,53 @@ footer {
 }
 .hero__content {
   width: 100%;
+  top: 0;
+  left: 0;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content {
-    width: 95%;
+    width: 90%;
+    top: 2.5rem;
+    left: -0.625rem;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .hero__content {
+    top: 0.625rem;
+    left: -5rem;
   }
 }
 @media screen and (min-width: 768px) {
   .hero__content {
     width: 26.25rem;
-    left: 3.1875rem;
-    top: 6.25rem;
+    left: 2.5rem;
+    top: 9.375rem;
   }
 }
 @media screen and (min-width: 1024px) {
   .hero__content {
     width: 37.875rem;
-    left: 4.5rem;
-    top: 3.125rem;
+    left: 3.125rem;
+    top: 15.625rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .hero__content {
+    top: 12.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__content {
+    top: 10.9375rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero__content {
+    top: 14.0625rem;
   }
 }
 .hero__content .hero__title {
   width: 19.4375rem;
-  opacity: 0.75;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content .hero__title {
@@ -137,12 +201,11 @@ footer {
 }
 .hero__content .hero__intro {
   width: 19.4375rem;
-  background-color: #e1e5df;
-  opacity: 0.75;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content .hero__intro {
     width: 95%;
+    padding-right: 3.125rem;
   }
 }
 @media screen and (min-width: 768px) {

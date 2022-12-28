@@ -1,0 +1,41 @@
+.btn {
+	width: 13.375rem;
+	height: 3.5rem;
+	color: $clr-dark !important;
+}
+
+.btn-primary {
+	background-color: $clr-accent;
+	color: $clr-dark !important;
+	border: 2px solid $clr-accent !important;
+
+	&:hover {
+		background-color: $clr-dark !important;
+		border: 2px solid $clr-dark !important;
+
+		a:hover {
+			color: $clr-primary;
+			font-weight: $fw-bold;
+		}
+	}
+
+	a {
+        font-weight: $fw-bold;
+		margin: auto;
+		color: $clr-dark !important;
+	}
+}
+
+.button-container {
+    top: 21.25rem;
+
+    @include bp-sm-mobile {
+        left: .625rem;
+    }
+
+    @include bp-tablet {
+        top: 31.25rem;
+        left: 5.9375rem;
+    }
+}
+
