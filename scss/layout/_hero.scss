@@ -13,13 +13,13 @@
 
 		@include bp-sm-mobile {
 			width: 90%;
-			top: 2.5rem;
-			left: -0.625rem;
+			top: 5rem;
+			left: .625rem;
 		}
 
 		@include bp-tablet {
 			top: 0.625rem;
-			left: -5rem;
+			left: 2rem;
 		}
 
 		@include bp-tablet-up {
@@ -51,11 +51,15 @@
 
 			@include bp-sm-mobile {
 				width: 95%;
+				font-size: 1.5rem;
+				line-height: 1.75rem;
 				margin-top: 3rem;
+				margin-bottom: 1rem;
 			}
 
 			@include bp-tablet {
 				margin-top: 6rem;
+				
 			}
 
 			@include bp-tablet-up {
@@ -71,8 +75,9 @@
 			width: 19.4375rem;
 
 			@include bp-sm-mobile {
-				width: 95%;
-				padding-right: 3.125rem;
+				width: 75%;
+				font-size: .9375rem;
+				
 			}
 			@include bp-tablet-up {
 				width: 25rem;

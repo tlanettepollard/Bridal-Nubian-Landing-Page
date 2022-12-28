@@ -40,7 +40,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #81444c;
+  color: #251813;
   font-family: "Inter", monospace;
   font-weight: 700;
 }
@@ -63,7 +63,7 @@ h4 {
 }
 
 .paragraph {
-  color: #81444c;
+  color: #251813;
   font-size: 1.5rem;
   line-height: 1.875rem;
 }
@@ -136,14 +136,14 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content {
     width: 90%;
-    top: 2.5rem;
-    left: -0.625rem;
+    top: 5rem;
+    left: 0.625rem;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .hero__content {
     top: 0.625rem;
-    left: -5rem;
+    left: 2rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -181,7 +181,10 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content .hero__title {
     width: 95%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     margin-top: 3rem;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -204,8 +207,8 @@ footer {
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .hero__content .hero__intro {
-    width: 95%;
-    padding-right: 3.125rem;
+    width: 75%;
+    font-size: 0.9375rem;
   }
 }
 @media screen and (min-width: 768px) {

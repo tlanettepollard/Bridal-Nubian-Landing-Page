@@ -10,7 +10,7 @@ h1,
 h2,
 h3,
 h4 {
-	color: $heading-color;
+	color: $clr-nav-font;
 	font-family: $heading-font;
 	font-weight: $fw-bold;
 }
@@ -31,7 +31,7 @@ h4 {
 }
 
 .paragraph {
-	color: $body-font-color;
+	color: $clr-nav-font;
 	font-size: 1.5rem;
 	line-height: 1.875rem;
 
