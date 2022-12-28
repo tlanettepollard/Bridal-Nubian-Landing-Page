@@ -22,22 +22,22 @@ nav {
 			top: 2.125rem;
 		}
 
-        @include bp-desktop-up {
-            top: 1.875rem;
-        }
+		@include bp-desktop-up {
+			top: 1.875rem;
+		}
 
-        @include bp-xl-up {
-            top: 1.5rem;
-        }
+		@include bp-xl-up {
+			top: 1.5rem;
+		}
 
-        @include bp-xxl-up {
-            top: 1.25rem;
-        }
+		@include bp-xxl-up {
+			top: 1.25rem;
+		}
 
-        @include bp-xxxl-up {
-            left: 3.125rem;
-            top: .75rem;
-        }
+		@include bp-xxxl-up {
+			left: 3.125rem;
+			top: 0.75rem;
+		}
 	}
 
 	.offcanvas {
@@ -89,14 +89,14 @@ nav {
 				@include bp-xxl-up {
 					width: 69.125rem;
 					height: 3.3125rem;
-					left: 53.125rem;
+					left: 46.875rem;
 					top: 1.375rem;
 				}
 
 				@include bp-xxxl-up {
 					width: 69.125rem;
 					height: 3.3125rem;
-					left: 81.25rem;
+					left: 75rem;
 					top: 1.375rem;
 				}
 			}
@@ -106,11 +106,12 @@ nav {
 					font-size: 0.9375rem;
 				}
 
-                @include bp-xxl-up {
-                    font-size: 1.125rem;
-                }
+				@include bp-xxl-up {
+					font-size: 1.5rem;
+				}
 				.nav-link {
-					color: $nav-font;
+					color: $clr-dark;
+					font-weight: $fw-extra-bold;
 				}
 			}
 		}

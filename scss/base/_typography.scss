@@ -33,7 +33,7 @@ h4 {
 .paragraph {
 	color: $clr-nav-font;
 	font-size: 1.5rem;
-	line-height: 1.875rem;
+	line-height: 2rem;
 
 	@include bp-sm-mobile {
 		font-size: 1rem;
