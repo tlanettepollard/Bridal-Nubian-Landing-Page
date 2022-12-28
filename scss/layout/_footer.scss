@@ -4,7 +4,7 @@ footer {
 	background-color: $clr-primary;
 
 	.social-links {
-		width: 75px;
+		width: 3.125rem;
 		height: auto;
 
 		@include bp-tablet-up {
@@ -17,7 +17,7 @@ footer {
 	}
 
 	.company-link {
-		width: 10.5938rem;
+		width: 6.25rem;
 		height: auto;
 
 		@include bp-tablet-up {
@@ -26,6 +26,21 @@ footer {
 
 		@include bp-xl-up {
 			width: 18.75rem;
+
+		}
+	}
+
+	.footer-attribute {
+		width: 6.25rem;
+		height: auto;
+
+		@include bp-tablet-up {
+			width: 12.5rem;
+		}
+
+		@include bp-xl-up {
+			width: 18.75rem;
+
 		}
 	}
 }
