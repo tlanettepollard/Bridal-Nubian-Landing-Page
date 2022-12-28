@@ -206,6 +206,38 @@ nav .offcanvas .offcanvas-body .navbar-nav {
     left: 12.8125rem;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  nav .offcanvas .offcanvas-body .navbar-nav {
+    width: 37.5rem;
+    height: 3.3125rem;
+    left: 25rem;
+    top: 1.375rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  nav .offcanvas .offcanvas-body .navbar-nav {
+    width: 69.125rem;
+    height: 3.3125rem;
+    left: 34.375rem;
+    top: 1.375rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  nav .offcanvas .offcanvas-body .navbar-nav {
+    width: 69.125rem;
+    height: 3.3125rem;
+    left: 43.75rem;
+    top: 1.375rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  nav .offcanvas .offcanvas-body .navbar-nav {
+    width: 69.125rem;
+    height: 3.3125rem;
+    left: 75rem;
+    top: 1.375rem;
+  }
+}
 
 .bg-light {
   background-color: #d1cea7 !important;
