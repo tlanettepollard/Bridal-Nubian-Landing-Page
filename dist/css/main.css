@@ -123,9 +123,29 @@ footer .social-links {
   width: 75px;
   height: auto;
 }
+@media screen and (min-width: 768px) {
+  footer .social-links {
+    width: 5.625rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  footer .social-links {
+    width: 6.25rem;
+  }
+}
 footer .company-link {
   width: 10.5938rem;
   height: auto;
+}
+@media screen and (min-width: 768px) {
+  footer .company-link {
+    width: 12.5rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  footer .company-link {
+    width: 18.75rem;
+  }
 }
 
 .hero {

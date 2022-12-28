@@ -6,10 +6,26 @@ footer {
 	.social-links {
 		width: 75px;
 		height: auto;
+
+		@include bp-tablet-up {
+			width: 5.625rem;
+		}
+
+		@include bp-xl-up {
+			width: 6.25rem;
+		}
 	}
 
 	.company-link {
 		width: 10.5938rem;
 		height: auto;
+
+		@include bp-tablet-up {
+			width: 12.5rem;
+		}
+
+		@include bp-xl-up {
+			width: 18.75rem;
+		}
 	}
 }
